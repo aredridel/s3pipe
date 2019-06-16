@@ -2,6 +2,9 @@
   "name": "@aredridel/s3pipe",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "s3pipe": "index.js"
+  },
   "author": "Aria Stewart <aredridel@dinhe.net>",
   "license": "Artistic License 2.0",
   "description": "Upload giant files to S3 on the command line",
