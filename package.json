@@ -6,10 +6,18 @@
     "s3pipe": "index.js"
   },
   "author": "Aria Stewart <aredridel@dinhe.net>",
-  "license": "Artistic License 2.0",
+  "license": "Artistic-2.0",
   "description": "Upload giant files to S3 on the command line",
   "dependencies": {
     "async-main": "^1.0.2",
     "aws-sdk": "^2.476.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/s3pipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aredridel/s3pipe/issues"
+  },
+  "homepage": "https://github.com/aredridel/s3pipe#readme"
 }
